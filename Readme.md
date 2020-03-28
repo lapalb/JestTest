@@ -26,4 +26,10 @@ There are many testing frameworks. Top one includes:
 
 ---
 ### Cypress vs Selenium
-both automation frameworks for web app testing. Selenium supports many language but cypress supports only Javascript. Moreover cypress has cross browser testing issues
+Both are automation frameworks for web app testing. Selenium supports many language but cypress supports only Javascript. Moreover cypress has cross browser testing issues
+
+
+###Cypress : web has evolved. Finally, testing has too.
+Let's be honest, developers never want to writes tests. Be it unit, integration or functinal testing. Cypress is there to lure developers to write test.
+
+Cypress has simpler syntax, beatiful UI and the coolest feature is time travel. It runs in browser so it doesn't has to do network calls like selenium. It has stubs and spies to mock obeject and force function to return the desired value so you don't get too dependent on server :wink:
