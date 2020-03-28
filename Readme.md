@@ -33,3 +33,5 @@ Both are automation frameworks for web app testing. Selenium supports many langu
 Let's be honest, developers never want to writes tests. Be it unit, integration or functinal testing. Cypress is there to lure developers to write test.
 
 Cypress has simpler syntax, beatiful UI and the coolest feature is time travel. It runs in browser so it doesn't has to do network calls like selenium. It has stubs and spies to mock obeject and force function to return the desired value so you don't get too dependent on server :wink:
+
+It uses `mocha` for testing and `Chai` for assertion. It has asynchronous nature so you don't need to sprinkle wait everywhere 
