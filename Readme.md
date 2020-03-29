@@ -47,3 +47,18 @@ describe('testing facebook', function(){
 })
 
 ```
+
+### Headless: Running chrome from CLI without GUI
+A headless browser is a great tool for automated testing and server environments where you don't need a visible UI shell.
+
+```
+chrome --headless --disable-gpu --dump-dom https://www.chromestatus.com/
+```
+
+`--screenshot` : Take Screenshot
+`--repl;` : Start the REPL 
+`--print-to-pdf` : Creates a PDF
+
+
+#### Puppeteer
+A node libaray by Google which can be used to control headeless chrome environment. This provides high level API as compared to CRI(Chrome Remote Interface).
