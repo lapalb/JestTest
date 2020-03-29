@@ -83,3 +83,8 @@ const puppeteer = require('puppeteer');
   await browser.close();
 })();
 ```
+
+
+#### Workbox
+JavaScript Libraries for adding offline support to web apps. It can help you with writing boilerplate code for Precaching,  Runtime caching, Request Routing,
+ Background Sync and Greater flexibility and feature set than sw-precache and sw-toolbox
