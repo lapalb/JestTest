@@ -88,3 +88,7 @@ const puppeteer = require('puppeteer');
 #### Workbox
 JavaScript Libraries for adding offline support to web apps. It can help you with writing boilerplate code for Precaching,  Runtime caching, Request Routing,
  Background Sync and Greater flexibility and feature set than sw-precache and sw-toolbox
+
+
+ #### Polymer : WIP
+ A wrapper library to write web-component. Web Component can be written natively in HTML5 but the native web-components is still a WIP. This is not used wiidely due to cumbersome components.
