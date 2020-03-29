@@ -62,3 +62,24 @@ chrome --headless --disable-gpu --dump-dom https://www.chromestatus.com/
 
 #### Puppeteer
 A node libaray by Google which can be used to control headeless chrome environment. This provides high level API as compared to CRI(Chrome Remote Interface).
+
+```
+npm i puppeteer
+# or "yarn add puppeteer"
+```
+
+It can be used to take screenshot, generate PDF, Automate form submission and capture timeline trace.
+
+Below is a small example on how to do that.
+```
+const puppeteer = require('puppeteer');
+
+(async () => {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  await page.goto('https://news.ycombinator.com', {waitUntil: 'networkidle2'});
+  await page.pdf({path: 'hn.pdf', format: 'A4'});
+
+  await browser.close();
+})();
+```
