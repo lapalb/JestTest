@@ -91,4 +91,4 @@ JavaScript Libraries for adding offline support to web apps. It can help you wit
 
 
  #### Polymer : WIP
- A wrapper library to write web-component. Web Component can be written natively in HTML5 but the native web-components is still a WIP. This is not used wiidely due to cumbersome components.
+ A wrapper library to write web-component. Web Component can be written natively in HTML5 but the native web-components is still a WIP and **very low level**. This is not used wiidely due to cumbersome components.
